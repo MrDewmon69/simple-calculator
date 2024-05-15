@@ -32,6 +32,7 @@
 	<button on:click={() => (input += '6')}>6</button>
 	<button on:click={() => (input += '2')}>2</button>
 	<button on:click={() => (input += '8')}>8</button>
+	<button on:click={() => (input += '.')}>.</button>
 	<button on:click={() => (input += '4')}>4</button>
 	<button on:click={() => (input += '-')}>-</button>
 	<button on:click={() => (input += '1')}>1</button>
