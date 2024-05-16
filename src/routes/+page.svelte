@@ -23,6 +23,9 @@
 	Welcome to my Calculator
 </h1>
 <p>Output: {input || result}</p>
+{#if result == 69}
+	<h1>NICE!!!!!!</h1>
+{/if}
 <div class="calc-body">
 	<button on:click={() => (input += '/')}>/</button>
 	<button on:click={() => (input += '5')}>5</button>
